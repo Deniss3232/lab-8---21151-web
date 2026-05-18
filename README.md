@@ -25,3 +25,6 @@ npm run dev
 3. Se hizo commit con los tests fallando como evidencia del flujo TDD.
 4. Se implementó el componente y la lógica hasta que todos los tests pasaron (green phase).
 5. Se hizo commit final con todos los tests en verde.
+
+## Autor
+Deniss - 21151
