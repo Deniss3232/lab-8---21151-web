@@ -1,16 +1,27 @@
-# React + Vite
+# Lab 8 - Password Strength Meter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Instalación
 
-Currently, two official plugins are available:
+```bash
+npm install
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Correr los tests
 
-## React Compiler
+```bash
+npm test
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Correr en modo desarrollo
 
-## Expanding the ESLint configuration
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Flujo TDD seguido
+
+1. Se configuró el proyecto con Vite + Vitest + React Testing Library manualmente.
+2. Se escribieron todos los tests primero (red phase) — los tests fallaban porque no había implementación.
+3. Se hizo commit con los tests fallando como evidencia del flujo TDD.
+4. Se implementó el componente y la lógica hasta que todos los tests pasaron (green phase).
+5. Se hizo commit final con todos los tests en verde.
